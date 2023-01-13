@@ -1,9 +1,9 @@
 
-# Start minikube 
+# Setup 
 
-* minikube start --memory=8192 --cpus=3 --kubernetes-version=v1.23.1 --vm-driver=kvm2 -p kafka
+* Start minikube: `minikube start --memory=8192 --cpus=3 --vm-driver=kvm2 -p kafka`
  
- * To create the kafka cluster `bash kafka/start.sh`
+* To create the kafka cluster `bash kafka/start.sh`
  
 
 * Run `go run cmd/producer/main.go` from one tab to produced
